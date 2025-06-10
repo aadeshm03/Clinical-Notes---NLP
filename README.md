@@ -11,7 +11,7 @@ Given a dataset of clinical notes along with patient summaries, an individual no
 - Diaphragmatic defect  
 - Drug-induced dystonia (user-supplied note)
 
-## 🔍 Dataset Structure
+### 🔍 Dataset Structure
 Each row in the dataset includes:
 - `text`: A clinical note or case description  
 - `label`: The diagnosis/condition  
