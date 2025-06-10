@@ -21,7 +21,7 @@ text,label
 "A 49-year-old male with elbow pain...", "proximal ulnar shaft fracture"
 ...
 
-## 🧪 Model Architecture
+### 🧪 Model Architecture
 The model is based on ehbio/clinical-modern-bert-base-uncased, a transformer pretrained on biomedical and clinical text. Fine-tuning was done using HuggingFace's transformers library with a custom classification head.
 Features:
 Long input support (up to 8,192 tokens)
