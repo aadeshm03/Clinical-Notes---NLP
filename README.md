@@ -11,17 +11,14 @@ Given a dataset of clinical notes along with patient summaries, an individual no
 - Diaphragmatic defect  
 - Drug-induced dystonia (user-supplied note)
 
-### 🔍 Dataset Structure
+## 🔍 Dataset Structure
 Each row in the dataset includes:
 - `text`: A clinical note or case description  
 - `label`: The diagnosis/condition  
-```plaintext
-text,label
 "A 36-year-old female presented with...", "idiopathic osteonecrosis of the femoral head"
 "A 49-year-old male with elbow pain...", "proximal ulnar shaft fracture"
-...
 
-### 🧪 Model Architecture
+## 🧪 Model Architecture
 The model is based on ehbio/clinical-modern-bert-base-uncased, a transformer pretrained on biomedical and clinical text. Fine-tuning was done using HuggingFace's transformers library with a custom classification head.
 Features:
 Long input support (up to 8,192 tokens)
