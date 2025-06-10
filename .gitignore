@@ -1,0 +1,8 @@
+clinicalbert-finetuned/
+*.bin
+*.pt
+*.ckpt
+*.zip
+*.tar.gz
+*.pkl
+.ipynb_checkpoints/
